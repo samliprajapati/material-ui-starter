@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import ContainedButtons from './Component/button';
-import ButtonAppBar from "./Component/navbar"
+import NavBar from "./Component/navbar"
+import Drawer from "./Component/Drawer/Drawer"
 
 function App() {
   return (
     <div className="App">
-      <ButtonAppBar/>
-      <ContainedButtons/>
+      <NavBar />
+      <Drawer />
+
     </div>
   );
 }
